@@ -2,11 +2,11 @@
 
 Из того, что удалось накопать за неделю, приличным показались следующие варианты подходов и датасетов.
 
-### Four main approaces:
+### Four main approaches:
 
 | Type         | What's Used                                 | Link                                                       | Additional Notes                                                       |
 | ------------ | ------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------- |
-| LSTM-based   | openpifpaf -> LSTM                          | github.com/taufeeque9/HumanFallDetection                   | code for a paper; multi-person, multi-camera, ligthweight (relatively) |
+| LSTM-based   | openpifpaf -> LSTM                          | https://github.com/taufeeque9/HumanFallDetection           | code for a paper; multi-person, multi-camera, ligthweight (relatively) |
 | YOLO-based   | AlphaPose -> ST-GCN -> oneclass tiny YOLO | https://github.com/GajuuzZ/Human-Falling-Detect-Tracks     | weights not accessible                                                 |
 | ImProc-based | openCV Haar Cascades                        | https://github.com/EikeSan/video-fall-detection            | super lightweight and super easy                                       |
 | YOLO-based   | YOLOv7-POSE                                 | https://github.com/Y-B-Class-Projects/Human-Fall-Detection | heavyweight, but very nice results                                     |
